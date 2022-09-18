@@ -1,0 +1,10 @@
+[Unit]
+Description=Recompiles vmware modules
+ConditionPathExists=!/dev/vmmon
+
+[Service]
+Type=oneshot
+ExecStart=sh -c "/opt/VMware/vmwarecompile.sh"
+
+[Install]
+WantedBy=multi-user.target
