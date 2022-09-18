@@ -1,5 +1,5 @@
 # VMware-AutoCompile-Kernel
-An automatic service that compile VMware kernel module on update using [mkubecek](https://github.com/mkubecek/vmware-host-modules)'s VmWare modules
+An automatic service that compile VMware kernel module on update using [mkubecek](https://github.com/mkubecek/vmware-host-modules)'s VMware modules
 
 
 ## How to install :
