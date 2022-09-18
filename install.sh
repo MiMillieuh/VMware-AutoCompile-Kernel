@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [[ "$USER" != "root" ]]; then
+    echo "Error: script not running as root or with sudo! Exiting..."
+    exit 1
+fi
+
 mkdir /opt/VMware
 
 cp vmwarecompile.sh /opt/VMware/
