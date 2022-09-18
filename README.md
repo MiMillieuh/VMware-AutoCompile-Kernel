@@ -10,6 +10,10 @@ An automatic service that compile VMware kernel module on update
 
 `sudo sh install-auto-vmware-module.sh`
 
+## How to uninstall : 
+
+`sh /opt/VMware/uninstall-auto-vmware-module.sh`
+
 ## Requirements
 
 - Systemd
