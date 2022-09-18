@@ -8,7 +8,7 @@ An automatic service that compile VMware kernel module on update
 
 `cd VMware-AutoCompile-Kernel`
 
-`sudo sh install.sh`
+`sudo sh install-auto-vmware-module.sh`
 
 ## Requirements
 
