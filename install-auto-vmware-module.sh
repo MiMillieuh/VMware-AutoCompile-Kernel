@@ -15,7 +15,7 @@ chmod +x /opt/VMware/uninstall-auto-vmware-module.sh
 
 chmod +x /opt/VMware/vmwarecompile.sh
 
-cp vmware-compile.service /opt/systemd/system/
+cp vmware-compile.service /etc/systemd/system/
 
 systemctl start vmware-compile.service
 systemctl enable vmware-compile.service
